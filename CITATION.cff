@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software repository version used for reproduction."
+title: "A reproducible audit of qpAdm coefficient uncertainty and complete-case allele-sharing diagnostics in medieval Balkan ancient DNA"
+type: software
+authors:
+  - family-names: "Stanisic"
+    given-names: "Nemanja"
+version: "1.0.0"
+date-released: "2026-07-09"
+repository-code: "https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit"
+url: "https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit"
+license: "MIT"

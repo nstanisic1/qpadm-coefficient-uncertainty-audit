@@ -1,0 +1,15 @@
+panel,metric,metric_label,predicted_direction,bootstrap_mean,bootstrap_median,ci_lower_95,ci_upper_95,direction_preservation_fraction,n_bootstrap
+main,loo_statistic,Leave-one-out outlier diagnostic,negative,-0.0009630129758287252,-0.0009755297645341748,-0.0014719539375929083,-0.0004431019057690683,1.0,1000
+main,sirmium_gradient_r,Sirmium geographic gradient,positive,0.8462492881415558,0.8647969788066763,0.6376734354052824,0.9821351050135781,1.0,1000
+main,ev13_difference,E-V13 replication contrast,positive,0.003105009169645129,0.003140770785644481,0.000852961059127437,0.005348095123355175,0.999,1000
+main,homogenization_separation,Autosomal homogenization contrast,non-positive,-0.0013542313673257198,-0.001358574399064727,-0.002233093048471975,-0.00047850599485075175,0.997,1000
+main,i2a_highland_minus_lowland_distance_to_r1a,I2a highland-minus-lowland R1a distance excess,positive,0.0028890389274861764,0.0029265892936026494,0.0013293057173072041,0.004415861812778643,1.0,1000
+main,weighted_directional_score,Weighted directional score,higher positive,0.9987999999999999,1.0,1.0,1.0,0.996,1000
+main,all_four_pre_specified_directions_ok,All four pre-specified directions jointly preserved,true,0.996,,,,0.996,1000
+ev13_sensitivity,loo_statistic,Leave-one-out outlier diagnostic,negative,-0.000952265566591904,-0.0009503831571077703,-0.0014781142084090038,-0.0004110539268040496,1.0,1000
+ev13_sensitivity,sirmium_gradient_r,Sirmium geographic gradient,positive,0.8522510321981067,0.8659946884174581,0.6376502902643963,0.9830865086679699,1.0,1000
+ev13_sensitivity,ev13_difference,E-V13 replication contrast,positive,0.0034164430471002884,0.0033860007476236575,0.0011679115935063738,0.005577305617857557,0.998,1000
+ev13_sensitivity,homogenization_separation,Autosomal homogenization contrast,non-positive,-0.0013875160205062498,-0.0013767622556872527,-0.002312571202250019,-0.0005602935646516428,1.0,1000
+ev13_sensitivity,i2a_highland_minus_lowland_distance_to_r1a,I2a highland-minus-lowland R1a distance excess,positive,0.0028567966997757126,0.002851149471323311,0.0012331617804122008,0.004434342625226983,1.0,1000
+ev13_sensitivity,weighted_directional_score,Weighted directional score,higher positive,0.9990399999999999,1.0,1.0,1.0,0.998,1000
+ev13_sensitivity,all_four_pre_specified_directions_ok,All four pre-specified directions jointly preserved,true,0.998,,,,0.998,1000

@@ -1,0 +1,174 @@
+{
+  "script": "04a_alpha_threshold_sensitivity.py",
+  "timestamp_utc": "2026-07-09T08:00:23+00:00",
+  "base": ".",
+  "settings": {
+    "fixed_thresholds": [
+      0.2,
+      0.25,
+      0.3333333333333333,
+      0.4,
+      0.5
+    ],
+    "prob_floors": [
+      0.05,
+      0.1,
+      0.25
+    ],
+    "primary_rho": 0.0,
+    "focal_individuals": [
+      "I15541",
+      "I15542"
+    ],
+    "main_panel_label": "main_I27297",
+    "sensitivity_panel_label": "ev13_sensitivity_I28388",
+    "include_comparator_thresholds": true
+  },
+  "inputs": {
+    "alpha_summary": {
+      "path": "results/alpha_identifiability/alpha_summary.csv",
+      "sha256": "344ca6bc61c8622fdb83eee5236445cdf0f772ebfbe1f776756a5f9041d32f77"
+    },
+    "alpha_draws": {
+      "path": "results/alpha_identifiability/alpha_draws.csv",
+      "sha256": "bff8c71762d0fd195b233020275d98876959e0d412d302b284a045757ef5fa53"
+    },
+    "comparators": {
+      "path": "results/alpha_identifiability/comparators_normalized.csv",
+      "sha256": "6a219115c1b6cd4c0b2bfbe7cc031458da88530d826a45331fc841c99d497a70"
+    },
+    "main_allele_summary": {
+      "path": "matrix_main/allele_sharing_summary.csv",
+      "sha256": "300742f4584daf5af7ece08473770b65c51cc85ec82719e698ad34e211e4b03d"
+    },
+    "sensitivity_allele_summary": {
+      "path": "matrix_ev13_sensitivity/allele_sharing_summary.csv",
+      "sha256": "f5c1a811ba3a75aa83491a12cb0de56e2abf8b27cb971d781a05f97e7c483878"
+    }
+  },
+  "outputs": {
+    "alpha_threshold_probabilities": "results/alpha_threshold_sensitivity/alpha_threshold_probabilities.csv",
+    "comparator_anchored_thresholds": "results/alpha_threshold_sensitivity/comparator_anchored_thresholds.csv",
+    "directional_support_grid": "results/alpha_threshold_sensitivity/directional_support_grid.csv",
+    "alpha_threshold_scenarios": "results/alpha_threshold_sensitivity/alpha_threshold_scenarios.csv",
+    "alpha_threshold_worst_rho_summary": "results/alpha_threshold_sensitivity/alpha_threshold_worst_rho_summary.csv",
+    "alpha_threshold_sensitivity_summary": "results/alpha_threshold_sensitivity/alpha_threshold_sensitivity_summary.csv",
+    "figuredata": "results/alpha_threshold_sensitivity/figuredata_alpha_threshold_sensitivity.csv",
+    "text_summary": "results/alpha_threshold_sensitivity/alpha_threshold_text_summary.txt"
+  },
+  "comparator_floors": [
+    {
+      "comparator_group": "all_comparators",
+      "n": 6,
+      "min_alpha": 0.256623384,
+      "median_alpha": 0.4147958045,
+      "max_alpha": 0.789019916
+    },
+    {
+      "comparator_group": "same_axis",
+      "n": 1,
+      "min_alpha": 0.41435808,
+      "median_alpha": 0.41435808,
+      "max_alpha": 0.41435808
+    },
+    {
+      "comparator_group": "related_axis",
+      "n": 5,
+      "min_alpha": 0.256623384,
+      "median_alpha": 0.415233529,
+      "max_alpha": 0.789019916
+    }
+  ],
+  "threshold_catalog": [
+    {
+      "threshold": 0.2,
+      "threshold_label": "alpha_ge_0p2",
+      "threshold_source": "fixed",
+      "comparator_group": "",
+      "comparator_statistic": "",
+      "threshold_key": "0.200000"
+    },
+    {
+      "threshold": 0.25,
+      "threshold_label": "alpha_ge_0p25",
+      "threshold_source": "fixed",
+      "comparator_group": "",
+      "comparator_statistic": "",
+      "threshold_key": "0.250000"
+    },
+    {
+      "threshold": 0.256623384,
+      "threshold_label": "all_comparators_min_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "all_comparators",
+      "comparator_statistic": "min_alpha",
+      "threshold_key": "0.256623"
+    },
+    {
+      "threshold": 0.256623384,
+      "threshold_label": "related_axis_min_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "related_axis",
+      "comparator_statistic": "min_alpha",
+      "threshold_key": "0.256623"
+    },
+    {
+      "threshold": 0.3333333333333333,
+      "threshold_label": "alpha_ge_one_third",
+      "threshold_source": "fixed",
+      "comparator_group": "",
+      "comparator_statistic": "",
+      "threshold_key": "0.333333"
+    },
+    {
+      "threshold": 0.4,
+      "threshold_label": "alpha_ge_0p4",
+      "threshold_source": "fixed",
+      "comparator_group": "",
+      "comparator_statistic": "",
+      "threshold_key": "0.400000"
+    },
+    {
+      "threshold": 0.41435808,
+      "threshold_label": "same_axis_median_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "same_axis",
+      "comparator_statistic": "median_alpha",
+      "threshold_key": "0.414358"
+    },
+    {
+      "threshold": 0.41435808,
+      "threshold_label": "same_axis_min_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "same_axis",
+      "comparator_statistic": "min_alpha",
+      "threshold_key": "0.414358"
+    },
+    {
+      "threshold": 0.4147958045,
+      "threshold_label": "all_comparators_median_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "all_comparators",
+      "comparator_statistic": "median_alpha",
+      "threshold_key": "0.414796"
+    },
+    {
+      "threshold": 0.415233529,
+      "threshold_label": "related_axis_median_alpha",
+      "threshold_source": "comparator_anchored",
+      "comparator_group": "related_axis",
+      "comparator_statistic": "median_alpha",
+      "threshold_key": "0.415234"
+    },
+    {
+      "threshold": 0.5,
+      "threshold_label": "alpha_ge_0p5",
+      "threshold_source": "fixed",
+      "comparator_group": "",
+      "comparator_statistic": "",
+      "threshold_key": "0.500000"
+    }
+  ],
+  "scope_statement": "This analysis is a local-alpha threshold sensitivity audit for coefficient-layer under-resolution. It does not infer paternal-lineage origin, direct population continuity, or historical identity.",
+  "limitation_statement": "The analysis cannot exclude an unsampled Balkan-like eastern/northern source. That requires additional source-side ancient DNA or Y-stratified modern autosomal/IBD data."
+}

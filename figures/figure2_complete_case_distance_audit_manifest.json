@@ -1,0 +1,16 @@
+{
+  "script": "06_complete_case_distance_audit.py",
+  "timestamp_utc": "2026-07-09T08:05:16+00:00",
+  "outputs": {
+    "png": "figures/figure2_complete_case_distance_audit.png",
+    "pdf": "figures/figure2_complete_case_distance_audit.pdf"
+  },
+  "panels": {
+    "a": "Mean distance from each non-R1a sample to the R1a reference frame, with SNP-bootstrap 95% intervals.",
+    "b": "I2a distance-to-R1a values plotted against geographic distance from Sirmium.",
+    "c": "Fraction of SNP-bootstrap replicates preserving each pre-specified directional contrast and all four jointly.",
+    "d1": "Leave-one-R1a-reference directional count audit.",
+    "d2": "All balanced I2a partition enumeration; grey circles are alternative 2-vs-2 splits and the orange star marks the observed geographic split."
+  },
+  "scope": "descriptive distance-space audit only; not an ancestry estimator or paternal-lineage origin test"
+}

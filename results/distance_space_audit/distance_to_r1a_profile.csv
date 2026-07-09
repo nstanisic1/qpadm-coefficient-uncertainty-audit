@@ -1,0 +1,13 @@
+panel,panel_display,sample,sample_group,mean_distance_to_r1a
+main,Main panel (I27297),I1116,Lowland I2a,0.25625476888478377
+main,Main panel (I27297),I32299,Lowland I2a,0.2607458870460357
+main,Main panel (I27297),I15541,Highland I2a,0.2622853165200862
+main,Main panel (I27297),I15542,Highland I2a,0.2603944955356546
+main,Main panel (I27297),I15537,Highland E-V13,0.2604982396958623
+main,Main panel (I27297),I27297,Lowland E-V13,0.2573859148896296
+ev13_sensitivity,Nustar sensitivity (I28388),I1116,Lowland I2a,0.25626134785859234
+ev13_sensitivity,Nustar sensitivity (I28388),I32299,Lowland I2a,0.2605668589127417
+ev13_sensitivity,Nustar sensitivity (I28388),I15541,Highland I2a,0.2621755847484781
+ev13_sensitivity,Nustar sensitivity (I28388),I15542,Highland I2a,0.26036326497917334
+ev13_sensitivity,Nustar sensitivity (I28388),I15537,Highland E-V13,0.2606336110221083
+ev13_sensitivity,Nustar sensitivity (I28388),I28388,Lowland E-V13,0.25715582612410554

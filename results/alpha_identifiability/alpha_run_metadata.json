@@ -1,0 +1,46 @@
+{
+  "script": "04_identifiability_analysis.py",
+  "timestamp_utc": "2026-07-09T08:00:21+00:00",
+  "purpose": "Bounded Monte Carlo uncertainty-propagation and correlation-sensitivity analysis for the local-to-Anatolian composition of the modeled non-eastern ancestry component.",
+  "focal_input_source": "data/olalde_table6_focal.csv",
+  "comparator_input_source": "data/late_antique_validation.csv",
+  "input_file": "data/olalde_table6_focal.csv",
+  "input_file_sha256": "c2eb2cff383fcd308e876dc192441de53ff1f085cc89ee5987e2ad35526c0613",
+  "validation_file": "data/late_antique_validation.csv",
+  "validation_file_sha256": "e95220c8df9ccef198222eae6a6b9101e783f312f1242b4c816efdaf4c06ea0b",
+  "outdir": "results/alpha_identifiability",
+  "n_sim": 100000,
+  "seed": 20240421,
+  "rho_grid": [
+    0.0,
+    -0.25,
+    -0.5,
+    -0.75
+  ],
+  "min_valid_fraction": 0.65,
+  "max_batch_multiplier": 25,
+  "batch_size": 50000,
+  "eps": 1e-12,
+  "save_draws": true,
+  "assumptions": [
+    "Primary estimand is alpha = Local / (Local + Anatolian).",
+    "Eastern-associated ancestry is not part of the alpha denominator because alpha is conditional on the modeled non-eastern component.",
+    "Local and Anatolian uncertainty are evaluated under a sensitivity grid of assumed correlations.",
+    "Draws are rejected if they violate compositional bounds or yield a non-positive Local + Anatolian denominator.",
+    "Results are a sensitivity analysis, not a qpAdm replacement or a full posterior reconstruction.",
+    "Figures are generated separately by 05_make_figures.py from the numeric outputs of this script."
+  ],
+  "individuals": [
+    "I15541",
+    "I15542"
+  ],
+  "warnings": [],
+  "output_files": {
+    "focal_inputs_used_csv": "results/alpha_identifiability/focal_inputs_used.csv",
+    "comparators_used_csv": "results/alpha_identifiability/comparators_used.csv",
+    "summary_csv": "results/alpha_identifiability/alpha_summary.csv",
+    "draws_csv": "results/alpha_identifiability/alpha_draws.csv",
+    "metadata_json": "results/alpha_identifiability/alpha_run_metadata.json",
+    "comparators_normalized_csv": "results/alpha_identifiability/comparators_normalized.csv"
+  }
+}

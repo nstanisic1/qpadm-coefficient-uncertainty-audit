@@ -1,0 +1,30 @@
+{
+  "script": "05_make_figures.py",
+  "timestamp_utc": "2026-07-09T08:00:30+00:00",
+  "inputs": {
+    "main_summary": "matrix_main/allele_sharing_summary.csv",
+    "sensitivity_summary": "matrix_ev13_sensitivity/allele_sharing_summary.csv",
+    "alpha_summary": "results/alpha_identifiability/alpha_summary.csv",
+    "alpha_draws": "results/alpha_identifiability/alpha_draws.csv",
+    "comparators": "results/alpha_identifiability/comparators_normalized.csv",
+    "figdir": "figures"
+  },
+  "outputs": {
+    "figure1_alpha_density": {
+      "png": "figures/figure1_alpha_density.png",
+      "pdf": "figures/figure1_alpha_density.pdf"
+    },
+    "figureS1_alpha_rho_sensitivity": {
+      "png": "figures/figureS1_alpha_rho_sensitivity.png",
+      "pdf": "figures/figureS1_alpha_rho_sensitivity.pdf"
+    },
+    "figureS2_allele_sharing_contrasts_main": {
+      "png": "figures/figureS2_allele_sharing_contrasts_main.png",
+      "pdf": "figures/figureS2_allele_sharing_contrasts_main.pdf"
+    },
+    "figureS3_allele_sharing_contrasts_ev13_sensitivity": {
+      "png": "figures/figureS3_allele_sharing_contrasts_ev13_sensitivity.png",
+      "pdf": "figures/figureS3_allele_sharing_contrasts_ev13_sensitivity.pdf"
+    }
+  }
+}

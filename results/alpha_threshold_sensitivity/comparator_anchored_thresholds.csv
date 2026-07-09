@@ -1,0 +1,12 @@
+threshold,threshold_label,threshold_source,comparator_group,comparator_statistic,threshold_key
+0.2,alpha_ge_0p2,fixed,,,0.200000
+0.25,alpha_ge_0p25,fixed,,,0.250000
+0.256623384,all_comparators_min_alpha,comparator_anchored,all_comparators,min_alpha,0.256623
+0.256623384,related_axis_min_alpha,comparator_anchored,related_axis,min_alpha,0.256623
+0.3333333333333333,alpha_ge_one_third,fixed,,,0.333333
+0.4,alpha_ge_0p4,fixed,,,0.400000
+0.41435808,same_axis_median_alpha,comparator_anchored,same_axis,median_alpha,0.414358
+0.41435808,same_axis_min_alpha,comparator_anchored,same_axis,min_alpha,0.414358
+0.4147958045,all_comparators_median_alpha,comparator_anchored,all_comparators,median_alpha,0.414796
+0.415233529,related_axis_median_alpha,comparator_anchored,related_axis,median_alpha,0.415234
+0.5,alpha_ge_0p5,fixed,,,0.500000

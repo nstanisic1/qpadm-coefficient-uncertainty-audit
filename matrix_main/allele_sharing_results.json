@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "script": "03_allele_sharing_panel.py",
+    "timestamp_utc": "2026-07-09T07:49:08+00:00",
+    "panel": "main",
+    "matrix_path": "matrix_main/complete_case_9_sample_matrix.tsv",
+    "matrix_sha256": "d10705f39beed28f33973b1b432814afa850417549cf24f3b38cd70127562293",
+    "n_rows": 99604,
+    "sample_order": [
+      "I1116",
+      "I32299",
+      "I15541",
+      "I15542",
+      "I15537",
+      "I27297",
+      "I26766",
+      "I26748",
+      "I35012"
+    ],
+    "permutation_method": "exact_enumeration",
+    "n_permutations_requested": 10000,
+    "n_permutations_usage_note": "Recorded for reproducibility; implemented label tests use exact finite enumeration.",
+    "n_bootstrap": 1000,
+    "seed": 42,
+    "distance_definition": "Pairwise IBS distance computed as mismatch proportion across strict complete-case pseudo-haploid SNP calls; equivalent to 1 - IBS.",
+    "sirmium_coordinates_lat_lon": [
+      44.9764,
+      19.6122
+    ]
+  },
+  "groups": {
+    "i2a_lowland": [
+      "I1116",
+      "I32299"
+    ],
+    "i2a_highland": [
+      "I15541",
+      "I15542"
+    ],
+    "ev13_highland": [
+      "I15537"
+    ],
+    "ev13_lowland": [
+      "I27297"
+    ],
+    "r1a_references": [
+      "I26766",
+      "I26748",
+      "I35012"
+    ]
+  },
+  "site_coordinates_lat_lon": {
+    "I1116": [
+      44.8889,
+      19.7494
+    ],
+    "I32299": [
+      44.732,
+      21.234
+    ],
+    "I15541": [
+      43.645,
+      22.265
+    ],
+    "I15542": [
+      43.645,
+      22.265
+    ],
+    "I15537": [
+      43.645,
+      22.265
+    ],
+    "I27297": [
+      44.7546,
+      20.2621
+    ]
+  },
+  "weights": {
+    "LOO": 0.9,
+    "Gradient": 0.7,
+    "EV13": 0.6,
+    "Homogenization": 0.3
+  },
+  "summary_rows": [
+    {
+      "test_number": 1,
+      "test_name": "Leave-one-out outlier diagnostic",
+      "statistic_name": "S_LOO",
+      "statistic": -0.0009465260208202653,
+      "ci_lower_95": -0.0014670177235184794,
+      "ci_upper_95": -0.0004483727784247577,
+      "p_value": 0.3333333333333333,
+      "predicted_direction": "negative",
+      "observed_direction_code": 1,
+      "weight": 0.9,
+      "weighted_contribution": 0.9
+    },
+    {
+      "test_number": 2,
+      "test_name": "Sirmium geographic gradient",
+      "statistic_name": "r",
+      "statistic": 0.8697290565157283,
+      "ci_lower_95": 0.6214235154367976,
+      "ci_upper_95": 0.9775404124994078,
+      "p_value": 0.16666666666666666,
+      "predicted_direction": "positive",
+      "observed_direction_code": 1,
+      "weight": 0.7,
+      "weighted_contribution": 0.7
+    },
+    {
+      "test_number": 3,
+      "test_name": "E-V13 replication contrast",
+      "statistic_name": "D_EV13",
+      "statistic": 0.0031123248062326914,
+      "ci_lower_95": 0.0010206250083664645,
+      "ci_upper_95": 0.00522745070479103,
+      "p_value": null,
+      "predicted_direction": "positive",
+      "observed_direction_code": 1,
+      "weight": 0.6,
+      "weighted_contribution": 0.6
+    },
+    {
+      "test_number": 4,
+      "test_name": "Autosomal homogenization contrast",
+      "statistic_name": "Sep",
+      "statistic": -0.001363454836708966,
+      "ci_lower_95": -0.002219093164487022,
+      "ci_upper_95": -0.0004964590333275776,
+      "p_value": 0.05714285714285714,
+      "predicted_direction": "non-positive",
+      "observed_direction_code": 1,
+      "weight": 0.3,
+      "weighted_contribution": 0.3
+    }
+  ],
+  "test_results": {
+    "LOO": {
+      "statistic": -0.0009465260208202653,
+      "p_value": 0.3333333333333333,
+      "ci_95": [
+        -0.0014670177235184794,
+        -0.0004483727784247577
+      ],
+      "direction": 1,
+      "weight": 0.9,
+      "details": {
+        "loo_shifts": {
+          "I1116": 0.0012217827039521234,
+          "I32299": -0.0002752566831318304,
+          "I15541": -0.0007883998411487014,
+          "I15542": -0.00015812617967153608
+        },
+        "delta_base": 0.0005797959921288176,
+        "permutation_method": "exact_enumeration",
+        "n_permutations": 6,
+        "n_bootstrap_valid": 1000
+      }
+    },
+    "Gradient": {
+      "statistic": 0.8697290565157283,
+      "p_value": 0.16666666666666666,
+      "ci_95": [
+        0.6214235154367976,
+        0.9775404124994078
+      ],
+      "direction": 1,
+      "weight": 0.7,
+      "details": {
+        "samples_used": [
+          "I1116",
+          "I32299",
+          "I15541",
+          "I15542"
+        ],
+        "autosomal_distances_to_r1a": [
+          0.25625476888478377,
+          0.2607458870460357,
+          0.2622853165200862,
+          0.2603944955356546
+        ],
+        "geographic_distances_to_sirmium_km": [
+          14.536493433583201,
+          130.69497222378212,
+          257.7951930416749,
+          257.7951930416749
+        ],
+        "permutation_method": "exact_enumeration",
+        "n_permutations": 24,
+        "n_bootstrap_valid": 1000
+      }
+    },
+    "EV13": {
+      "statistic": 0.0031123248062326914,
+      "ci_95": [
+        0.0010206250083664645,
+        0.00522745070479103
+      ],
+      "direction": 1,
+      "weight": 0.6,
+      "details": {
+        "highland_distance_to_r1a": 0.2604982396958623,
+        "lowland_distance_to_r1a": 0.2573859148896296,
+        "n_bootstrap_valid": 1000
+      }
+    },
+    "Homogenization": {
+      "statistic": -0.001363454836708966,
+      "p_value": 0.05714285714285714,
+      "ci_95": [
+        -0.002219093164487022,
+        -0.0004964590333275776
+      ],
+      "direction": 1,
+      "weight": 0.3,
+      "details": {
+        "within_i2a_mean": 0.26225519724776786,
+        "within_r1a_mean": 0.2593403210045112,
+        "pooled_within_mean": 0.261283571833349,
+        "between_mean": 0.25992011699664,
+        "permutation_method": "exact_enumeration",
+        "n_permutations": 35,
+        "n_bootstrap_valid": 1000
+      }
+    }
+  },
+  "directional_consistency_score": 1.0,
+  "output_files": {
+    "json": "matrix_main/allele_sharing_results.json",
+    "csv": "matrix_main/allele_sharing_summary.csv",
+    "pairwise_distance_matrix": "matrix_main/pairwise_distance_matrix.tsv"
+  }
+}

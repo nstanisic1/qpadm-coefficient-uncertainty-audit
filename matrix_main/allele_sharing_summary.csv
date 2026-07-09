@@ -1,0 +1,5 @@
+test_number,test_name,statistic_name,statistic,ci_lower_95,ci_upper_95,p_value,predicted_direction,observed_direction_code,weight,weighted_contribution,directional_consistency_score
+1,Leave-one-out outlier diagnostic,S_LOO,-0.0009465260208202653,-0.0014670177235184794,-0.0004483727784247577,0.3333333333333333,negative,1,0.9,0.9,1.0
+2,Sirmium geographic gradient,r,0.8697290565157283,0.6214235154367976,0.9775404124994078,0.16666666666666666,positive,1,0.7,0.7,1.0
+3,E-V13 replication contrast,D_EV13,0.0031123248062326914,0.0010206250083664645,0.00522745070479103,,positive,1,0.6,0.6,1.0
+4,Autosomal homogenization contrast,Sep,-0.001363454836708966,-0.002219093164487022,-0.0004964590333275776,0.05714285714285714,non-positive,1,0.3,0.3,1.0

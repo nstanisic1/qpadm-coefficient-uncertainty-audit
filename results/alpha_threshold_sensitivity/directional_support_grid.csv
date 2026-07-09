@@ -1,0 +1,3 @@
+panel,n_tests,n_directionally_consistent,n_snp_bootstrap_interval_excludes_zero,n_directionally_consistent_and_snp_bootstrap_interval_excludes_zero,fraction_directionally_consistent,fraction_directionally_consistent_and_snp_bootstrap_interval_excludes_zero,total_weight,directional_consistency_score,min_weighted_contribution
+main_I27297,4,4,4,4,1.0,1.0,2.5,1.0,0.3
+ev13_sensitivity_I28388,4,4,4,4,1.0,1.0,2.5,1.0,0.3

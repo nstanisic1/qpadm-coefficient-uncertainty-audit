@@ -1,0 +1,12 @@
+name: autosomal-audit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.11
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.2.2
+      - matplotlib==3.10.9
+      - scipy==1.13.1
+      - bamnostic==1.3

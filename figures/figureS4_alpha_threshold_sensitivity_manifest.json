@@ -1,0 +1,12 @@
+{
+  "script": "05a_make_alpha_threshold_figure.py",
+  "outputs": [
+    "figures/figureS4_alpha_threshold_sensitivity.png",
+    "figures/figureS4_alpha_threshold_sensitivity.pdf"
+  ],
+  "notes": {
+    "panel_a": "Worst-rho minimum focal probability curve across pre-specified local-alpha thresholds; custom x-axis ticks mark the analytical thresholds evaluated in the sensitivity analysis.",
+    "panel_b": "Highest threshold supported across all rho values by floor.",
+    "panel_c": "Independent allele-sharing support in the main and Nustar sensitivity panels."
+  }
+}

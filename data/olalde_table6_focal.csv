@@ -1,0 +1,3 @@
+individual,site,date,model_type,source_table,p_local,se_local,p_anatolian,se_anatolian,p_eastern,se_eastern,p_value,notes
+I15541,Serbia_TimacumKuline,800-1000 CE,Croatia_IA+WestAnatolia_Roman_Byzantine+CEE_EarlyMedieval,Olalde et al. Data S2 Table 6,0.122121647,0.154,0.339512405,0.084,0.538365948,0.09,0.370690746,"Highland I-Y3120 focal individual; three-way model block columns Prop1/SE1, Prop2/SE2, Prop3/SE3."
+I15542,Serbia_TimacumKuline,"897-1021 cal CE (1075+/-15 BP, PSUAMS-8555)",Croatia_IA+WestAnatolia_Roman_Byzantine+CEE_EarlyMedieval,Olalde et al. Data S2 Table 6,0.262317715,0.13,0.192686361,0.074,0.544995924,0.081,0.414848682,"Highland I-Y3120 focal individual; three-way model block columns Prop1/SE1, Prop2/SE2, Prop3/SE3."

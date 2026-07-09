@@ -1,0 +1,33 @@
+# Local/generated large data
+ena_1240k_all/
+ena_1240k_main/
+ena_1240k_ev13_sensitivity/
+local_archive/
+submission/
+_submission/
+manuscript/
+
+# Large external genotype resources
+*.bam
+*.bam.bai
+*.curltmp
+*.geno
+*.anno
+*.ind
+
+# Python/cache
+__pycache__/
+*.pyc
+
+# R/session files
+.Rhistory
+.RData
+
+# OS/editor
+.DS_Store
+Thumbs.db
+~$*
+
+# Third-party supplement files not redistributed in the repository
+NIHMS1944038-supplement-Data_S1.docx
+NIHMS1944038-supplement-Data_S2.xlsx
