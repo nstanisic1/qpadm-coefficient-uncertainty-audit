@@ -2,7 +2,7 @@
 
 Large primary BAM/BAI files are downloaded from ENA and are not redistributed. Third-party Olalde supplementary files are not redistributed. The repository includes only derived non-restricted input tables, scripts, generated outputs, figures, run metadata, manifests, and documentation needed to reproduce the associated analysis.
 
-Version `v1.0.0` corresponds to the reproducible-analysis repository snapshot at https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit.
+Version `v1.0.0` corresponds to the reproducible-analysis repository snapshot at https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit/releases/tag/v1.0.0 and is archived on Zenodo at https://doi.org/10.5281/zenodo.21276853.
 
 The pipeline uses published ancient genomic data and public metadata for secondary analysis. Users should consult the original data providers and archives for primary-data access terms, sample metadata, and citation requirements.
 

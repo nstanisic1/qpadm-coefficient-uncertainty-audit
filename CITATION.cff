@@ -7,6 +7,7 @@ authors:
     given-names: "Nemanja"
 version: "1.0.0"
 date-released: "2026-07-09"
+doi: "10.5281/zenodo.21276853"
 repository-code: "https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit"
 url: "https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit"
 license: "MIT"

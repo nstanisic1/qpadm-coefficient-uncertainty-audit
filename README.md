@@ -11,6 +11,9 @@ The repository supports a secondary analysis of published ancient genomic data. 
 This repository contains version `v1.0.0` of the reproducible analysis.
 
 Repository URL: https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit
+GitHub release: https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit/releases/tag/v1.0.0
+Archived release DOI: https://doi.org/10.5281/zenodo.21276853
+Zenodo concept DOI: https://doi.org/10.5281/zenodo.21276852
 
 ## Pipeline overview
 

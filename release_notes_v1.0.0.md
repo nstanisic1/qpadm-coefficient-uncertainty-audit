@@ -6,6 +6,12 @@ Versioned code and derived-output snapshot for:
 
 This version provides the reproducible Python workflow, derived matrices, statistical outputs, figures, environment files, run summary, checksum manifest, and data-use documentation supporting the associated manuscript.
 
+## Archive and DOI
+
+- GitHub release: https://github.com/nstanisic1/qpadm-coefficient-uncertainty-audit/releases/tag/v1.0.0
+- Archived release DOI: https://doi.org/10.5281/zenodo.21276853
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.21276852
+
 ## Repository Contents
 
 - Eight-stage Python workflow for BAM/BAI validation, all-autosome matrix construction, allele-sharing diagnostics, coefficient-layer alpha analysis, alpha-threshold sensitivity analysis, figure generation, and complete-case distance-space audit.
