@@ -1,0 +1,5 @@
+panel,filter,n_original_sites,n_retained_sites,n_autosomes,n_sites_with_changed_calls,n_changed_calls
+main,filtered,99604,88458,22,7380,7823
+main,transversions,99604,16088,22,1257,1326
+ev13_sensitivity,filtered,99872,88721,22,7523,7984
+ev13_sensitivity,transversions,99872,16137,22,1284,1355

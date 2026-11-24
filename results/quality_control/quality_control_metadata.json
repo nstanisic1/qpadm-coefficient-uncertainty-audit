@@ -1,0 +1,48 @@
+{
+  "source_sha256": {
+    "v62.0_1240k_public.snp": "1189e253b82058822fddabc4966c1448dea70373a96c40106e720bedd93b55bf",
+    "02a_quality_control.py": "456b569c729229df40d8b0f9436562e4ec22576dae3ddc68ebe7c2d4780f3e44",
+    "02_build_matrix.py": "6e188208dc0360fc3dd8450c844eddd6bd26092952b3605b30acede2db53a3aa",
+    "matrix_main/complete_case_9_sample_matrix.tsv": "d10705f39beed28f33973b1b432814afa850417549cf24f3b38cd70127562293",
+    "matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "8f3bffaedf690799b84726cc320b23ca5780f780d1f0e103cf03e9e1c96fa2ad"
+  },
+  "bam_and_index_sha256": {
+    "I1116.1240k.bam": "23167413f9bca4b9ca8a7e349a5ebadf5898db8ddb6c8eb6435505d99b8c3a00",
+    "I1116.1240k.bam.bai": "74456f0b8abb82568e9eca128c75f3fdd77362e521f205eddb6869a5a5549a51",
+    "I15537.1240k.bam": "41c854ad2fd2426be3f1f129330ff3fa90d4e8586bce3c49caef9675e53edafd",
+    "I15537.1240k.bam.bai": "fa4ea9e60266516b3fc0ed0979dd33f55a9010eb205e710c0662433ea1fbcb77",
+    "I15541.1240k.bam": "113b18b530948df5dfb27ff3c15c0ca27c87b5db2fa11e667825cfd6eb5da292",
+    "I15541.1240k.bam.bai": "edcddbaee037e69c1385b8e107b9ce1c6410e8dec9e63c74b61c898914a45d86",
+    "I15542.1240k.bam": "900d86574db560d0d973e96b3607cda6a3a85aa660264283e32427f0149b58f9",
+    "I15542.1240k.bam.bai": "0ca9a6ad1f880474e73c8f4091b82b6a297ff631cb2e9b9f8fdc9ef4703a67c0",
+    "I26748.1240k.bam": "49c0eabcbaeaefff6ebed9b54937bb652b13c6518a13a5aa5992fb146fdb1f4e",
+    "I26748.1240k.bam.bai": "e6edb27b8df07cefd0f86ed88637aab44a8ce422726428190053a6b5fee1fec1",
+    "I26766.1240k.bam": "fefcac5499bd703c97be7df47d4ca87539304682a8d6ece41463351f3262f928",
+    "I26766.1240k.bam.bai": "892e6acb08fa9f19174c3e9c86410be6785a94504a8952680af523c25f8d430a",
+    "I27297.1240k.bam": "1cc467a1651962348a3ee04a891b85aeff03959fd9e4197386a6336e63b5c47e",
+    "I27297.1240k.bam.bai": "ea6fd26b52e6d44e4ebbeac8eee337a5bcb249e3d71760a86f88ccb39311b35a",
+    "I28388.1240k.bam": "6c895af533cb5856ed8b273aa1e17b01fc996379d5758fddedcd4734c58411aa",
+    "I28388.1240k.bam.bai": "cfe5a1e5c547e66c30309c4fb6e80cabb48710b1448f9b354f373aff471babf9",
+    "I32299.1240k.bam": "7593a8ced94c6b2bbe73339349751f9590b4bb6b60d4958dc9eaaeaccd16db08",
+    "I32299.1240k.bam.bai": "5a849ee1a065d8bfa3272defcfd560bc95f8d7a2b5b65fecb95ee2600d1a4613",
+    "I35012.1240k.bam": "ab35d7b8b7218d8bbc4af759255edcf199e28b782c82d94effeb445748e1b4e7",
+    "I35012.1240k.bam.bai": "f98fb5b6f34b0c751e1908df2a6592e40c61e1d80016a5fb3bd3e18c835c7b8f"
+  },
+  "software": {
+    "python": "3.10.11",
+    "pandas": "2.2.2",
+    "bamnostic": "1.3",
+    "samtools": "1.25+htslib-1.25"
+  },
+  "min_mapping_quality": 30,
+  "min_base_quality": 20,
+  "trimmed_read_end_bases": 2,
+  "excluded_alignment_flags": "0xf04",
+  "output_sha256": {
+    "filtered/matrix_main/complete_case_9_sample_matrix.tsv": "8ea90086bbaeda20c610d2fbff8b7ad12f3f742f8759057fada630da8cd650ca",
+    "transversions/matrix_main/complete_case_9_sample_matrix.tsv": "6b55c09e9edd09b8c6d751e97f59aa0b9385da8a9acabc2b481a323fa90bb63d",
+    "filtered/matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "3c60ba79871cc051b3e8b508059bd2828877be91c4f764d4666343586f25ab93",
+    "transversions/matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "b908110fd3367020a08f198232ffbcb4c68f7ea68e80ce88ffd68762f537f7a5",
+    "quality_control_summary.csv": "78d4406e3208b2d969dcb9082b84794f2f6d84a9cb87ca9d3618492ab10c7348"
+  }
+}

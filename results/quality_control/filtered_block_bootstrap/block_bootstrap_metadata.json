@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "v62.0_1240k_public.snp": "1189e253b82058822fddabc4966c1448dea70373a96c40106e720bedd93b55bf",
+    "07_block_bootstrap.py": "c2ca3128d8b72431604f785d4c78c584cc01f1412dec8342d57ff5f0d4e72f04",
+    "panel_distances.py": "99f3654abc0c60d51ba93b1c9412684f05d88ac1a7ec069ec0a1fae97db920b8",
+    "results/quality_control/filtered/matrix_main/complete_case_9_sample_matrix.tsv": "8ea90086bbaeda20c610d2fbff8b7ad12f3f742f8759057fada630da8cd650ca",
+    "results/quality_control/filtered/matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "3c60ba79871cc051b3e8b508059bd2828877be91c4f764d4666343586f25ab93"
+  },
+  "software": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "base_seed": 42,
+  "replicates_per_condition": 5000,
+  "block_sizes_cm": [
+    5,
+    10
+  ],
+  "resampling": "Sample nonempty blocks with replacement within chromosomes, retaining each chromosome's block count.",
+  "output_sha256": {
+    "contrast_summary.csv": "3a04f80c862496712ea1ee2272a8edffa817c6572eca5cf8296438e18f9b276c",
+    "replicates.csv": "4aee2e4abf6a6147bf86b16ed98802a269f1a190319e8eb8b058e3d6c1d54728"
+  }
+}

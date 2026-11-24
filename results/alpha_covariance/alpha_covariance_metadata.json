@@ -1,0 +1,27 @@
+{
+  "source_sha256": {
+    "data/olalde_table6_focal.csv": "c2eb2cff383fcd308e876dc192441de53ff1f085cc89ee5987e2ad35526c0613",
+    "04b_alpha_covariance.py": "820d7ca956f636350151dd6e6d7f24758adacb4351602f9f47261de4b7e353a2",
+    "alpha_propagation.py": "84a39019c826f307dba0243c47095d517794101c44129b1a20092f811af8b349"
+  },
+  "software": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "pandas": "2.2.2"
+  },
+  "base_seed": 20240421,
+  "retained_draws_per_condition": 100000,
+  "batch_size": 50000,
+  "max_draw_multiplier": 25,
+  "compositional_tolerance": 1e-12,
+  "published_correlation_grid": [
+    0.0,
+    -0.25,
+    -0.5,
+    -0.75
+  ],
+  "output_sha256": {
+    "implied_covariance.csv": "66cff69b1c7692aa27e0031e0e44ad1f82241a08d3645320699ccf90ba141ca6",
+    "alpha_summary.csv": "8ac7e103b771f496f89f8bf891e03d0fbb05f6ebe3de31abf3ca198e8f9063e8"
+  }
+}

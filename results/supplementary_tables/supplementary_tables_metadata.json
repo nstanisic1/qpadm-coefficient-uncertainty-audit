@@ -1,0 +1,41 @@
+{
+  "source_sha256": {
+    "data/panel_sample_provenance.csv": "66e153eb477e22d46db9a045c373821a9338d6c730bacbd8d42a6ef56420690e",
+    "data/olalde_kuline_models.csv": "479eb91807e69a2c194bd5c4ce6ce4b770fe2eb56e91e65a59bad90b8e53ccf7",
+    "data/olalde_two_source_fits.csv": "eb5c5f6de7144c1172a1cd6134390c98ffecab8347a948a782d0e99a7cfbda1e",
+    "09_supplementary_tables.py": "7a9ac0efe326d19dc2b8280d403dddeaa2677325845ef99c53f2603bc490ddd6",
+    "04b_alpha_covariance.py": "820d7ca956f636350151dd6e6d7f24758adacb4351602f9f47261de4b7e353a2",
+    "panel_distances.py": "99f3654abc0c60d51ba93b1c9412684f05d88ac1a7ec069ec0a1fae97db920b8",
+    "alpha_propagation.py": "84a39019c826f307dba0243c47095d517794101c44129b1a20092f811af8b349",
+    "07_block_bootstrap.py": "c2ca3128d8b72431604f785d4c78c584cc01f1412dec8342d57ff5f0d4e72f04",
+    "results/block_bootstrap/contrast_summary.csv": "41b8e9e2f4dc4da23765ea278c49e8417a5a70791626d233f904c3a157a8db98",
+    "matrix_main/complete_case_9_sample_matrix.tsv": "d10705f39beed28f33973b1b432814afa850417549cf24f3b38cd70127562293",
+    "matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "8f3bffaedf690799b84726cc320b23ca5780f780d1f0e103cf03e9e1c96fa2ad",
+    "results/quality_control/filtered_block_bootstrap/contrast_summary.csv": "3a04f80c862496712ea1ee2272a8edffa817c6572eca5cf8296438e18f9b276c",
+    "results/quality_control/filtered/matrix_main/complete_case_9_sample_matrix.tsv": "8ea90086bbaeda20c610d2fbff8b7ad12f3f742f8759057fada630da8cd650ca",
+    "results/quality_control/filtered/matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "3c60ba79871cc051b3e8b508059bd2828877be91c4f764d4666343586f25ab93",
+    "results/quality_control/transversions_block_bootstrap/contrast_summary.csv": "e9f5eea63a9b9e4feb04a92f528498804f08a48e82b15904576e86c33dd7a083",
+    "results/quality_control/transversions/matrix_main/complete_case_9_sample_matrix.tsv": "6b55c09e9edd09b8c6d751e97f59aa0b9385da8a9acabc2b481a323fa90bb63d",
+    "results/quality_control/transversions/matrix_ev13_sensitivity/complete_case_9_sample_matrix.tsv": "b908110fd3367020a08f198232ffbcb4c68f7ea68e80ce88ffd68762f537f7a5"
+  },
+  "direction_rules": {
+    "leave_one_out_shift": "< 0",
+    "sirmium_correlation": "> 0",
+    "ev13_comparator_difference": "> 0",
+    "between_minus_within": "<= 0",
+    "joint_sign_fraction": "all four rules"
+  },
+  "software": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "output_sha256": {
+    "table_s1_panel.csv": "e632023428dd8e1e62610ef1b164d4385fe932fb73ae07629d69caa6c8552c3e",
+    "table_s2_kuline.csv": "588b75d939a816c329c6086d8abeb7376d7230d60786a9c60b925ae2c760f671",
+    "table_s3_two_source_fits.csv": "bbf62a16bb4a54b71ac540c8414213f018e5d1e561a04257bdded49d90da4f6d",
+    "table_s4_block_results.csv": "06c07c37e215a505f30c8a7873c7103b8c7d09a055337eeeb28f778e0c33da81",
+    "table_s5_sirmium_influence.csv": "1fafecd3cacb51f71421d0c973d1b19c7cab7a42473d98dbb8d06235266ba3f8"
+  }
+}
